@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Tajawal:wght@200;400;700&display=swap');
+svg:not(:root) {
+    overflow: hidden;
+}
+body{
+  font-family: 'Tajawal', cursive;
+  background: #fff;
+  margin: 0;
+  padding: 0;
+}
+.fab:before, .fas:before {
+  font-family: "Font Awesome 5 Free", "Font Awesome 5 Brands";
+}
+header {
+  border-bottom: 1px solid #cdcdcd;
+  padding: 10px 0;
+  height: 100px;
+  overflow: hidden;
+  position: relative;
+  margin-bottom: 35px;
+}
+#top_nav {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  width: 52%;
+  margin: 0 auto;
+  flex-wrap: wrap;
+  flex-flow: row-reverse;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+}
+#top_nav h1 {
+  color: #1a1a1a;
+  font-size: 22px;
+  font-weight: 600;
+  padding: 13px;
+  display: inline-block;
+  width: 60%;
+}
+#top_nav img{
+  width: 114px;
+}
+.social_media {
+  float: left;
+  display: inline-block;
+}
+.social_media > ul > li {
+    display: inline-block;
+    margin: 0 10px;
+    width: 30px;
+    height: 30px;
+    line-height: 30px;
+    border: 1px solid #cdcdcd;
+    text-align: center;
+    border-radius: 100%;
+}
+.social_media > ul > li > a {
+  color:#1a1a1a;
+}
+.copyright {
+  float: right;
+  display: inline-block;
+}
+@media only screen and (max-width: 720px) {
+   #top_nav {
+        width: 100%;
+    }     
+}
