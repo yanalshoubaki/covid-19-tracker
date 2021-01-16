@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # covid-19-tracker
 =======
 # حالات الإصابة بفيروس (كوفيد-١٩) 
@@ -26,10 +25,3 @@ Total Cases / Active Cases / Recoverd Cases / Death Cases in World and Jordan
 
 All Data from [Coronavirus COVID19 API](https://documenter.getpostman.com/view/10808728/SzS8rjbc?version=latest#63fda84a-6b43-4506-9cc7-2172561d5c16)
 
-
-
-
-
-
-
->>>>>>> f9a1441... Commit message
